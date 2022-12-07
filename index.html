@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body class="center">
+    <div class="container center">
+        <div class="container-top center">
+            <input type="text" class="entrada" id="inputtarefa" max="10" placeholder="Adicione uma nova tarefa" required>
+            <input type="submit" class="button" name="" id="btnadicionar" value="+">
+        </div>
+        <ul class="lista center"></ul>
+    </div>
+
+    <div id="janelaedicaofundo" class="center fechar">
+        <div id="janelaprincipal">
+            <h2 id="idtarefaedicao">#1022</h2>
+            <hr>
+            <form action="#" class="formulariodicao center">
+                <label for="edicaonome">Nome</label>
+                <input type="text" id="edicaonome" class="entrada">
+                <div class="botoes">
+                    <button id="botaoedicao">Salvar</button>
+                <button id="cancelar">Cancelar</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/a838236c7b.js" crossorigin="anonymous"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

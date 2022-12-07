@@ -1,0 +1,149 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+label {
+    font-size: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #4b4b4b;
+    width: 400px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.container-top {
+    width: 90%;
+    margin-top: 1em;
+    justify-content: space-between;
+
+}
+
+.entrada {
+    background-color: #353535;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    padding: 8px;
+    width: 88%;
+    border-radius: 10px;
+} 
+.button {
+    color: #FFFFFF;
+    background-color: #353535;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .6s;
+}
+
+.button:hover {
+    background-color: #1d1d1d;
+}
+
+.lista {
+    margin-top: 2em;
+    width: 100%;
+    flex-direction: column;  
+    list-style: none; 
+}
+
+.lista-individual {
+    width: 90%;
+    height: 50px;
+    background-color: #353535;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+.lista-individual i {
+    margin-left: 5px;
+    padding: 6px;
+    background-color: #1d1d1d;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.tarefa {
+    margin-left: 5px ;
+    font-size: 18px;
+    width: 80%;
+    overflow: hidden;
+    
+}
+
+#janelaedicaofundo {
+    background-color: rgba(0, 0, 0, 0.685);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#janelaprincipal {
+    background-color: #4b4b4b;
+    width: 400px;
+    height: 200px;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#janelaprincipal h2 {
+    margin-bottom: 5px;
+}
+
+.formulariodicao {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 150px;
+}
+
+.formulariodicao button {
+    color: #FFFFFF;
+    background-color: #424242;
+    border: none;
+    padding: 8px 12px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: .6s;  
+}
+
+.formulariodicao button:hover {
+    background-color: #1d1d1d;
+}
+
+.abrir {
+    display: flex;
+}
+
+.fechar {
+    display: none;
+}
